@@ -1,0 +1,57 @@
+# Віртуальне середовище Python
+venv/
+env/
+ENV/
+.env
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Бази даних
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи
+*.log
+logs/
+
+# Тимчасові файли
+*.tmp
+*.bak
+*.swp
+*~
+
+# Файли IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Файли macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Файли Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Файли дистрибуції
+dist/
+build/
+*.egg-info/
+
+# Файли Jupyter Notebook
+.ipynb_checkpoints
+
+# Локальні конфігураційні файли
+config.local.py
